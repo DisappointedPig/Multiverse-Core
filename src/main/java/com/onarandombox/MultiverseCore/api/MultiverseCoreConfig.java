@@ -177,14 +177,14 @@ public interface MultiverseCoreConfig extends ConfigurationSerializable {
      *
      * @param useDefaultPortalSearch True to let Bukkit determine portal search radius on its own.
      */
-    void setUseDefaultPortalSearch(boolean useDefaultPortalSearch);
+//    void setUseDefaultPortalSearch(boolean useDefaultPortalSearch);
 
     /**
      * Gets whether or not Bukkit will be determining portal search radius on its own or if Multiverse should help.
      *
      * @return True means Bukkit will use its own default values.
      */
-    boolean isUsingDefaultPortalSearch();
+//    boolean isUsingDefaultPortalSearch();
 
     /**
      * Sets the radius at which vanilla style portals will be searched for to connect to worlds together.
